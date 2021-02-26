@@ -3,10 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610F148F25E5695A00AAA76C /* CategoryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610F148E25E5695A00AAA76C /* CategoryDetailsView.swift */; };
+		613C1FB425E7489900BEA8DA /* ResponseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C1FB325E7489900BEA8DA /* ResponseAPI.swift */; };
+		613F654225E80FFE00DCE642 /* DiscoverAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F654125E80FFE00DCE642 /* DiscoverAPI.swift */; };
+		613F654725E819FF00DCE642 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 613F654625E819FF00DCE642 /* Kingfisher */; };
 		613F832225E48D4800BD8157 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F832125E48D4800BD8157 /* SearchView.swift */; };
 		613F832525E493CA00BD8157 /* DiscoverCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F832425E493CA00BD8157 /* DiscoverCategoriesView.swift */; };
 		613F832825E493EF00BD8157 /* PopularDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F832725E493EF00BD8157 /* PopularDestinationView.swift */; };
@@ -18,6 +22,10 @@
 		613F833C25E496B900BD8157 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F833B25E496B900BD8157 /* User.swift */; };
 		613F834025E49E6B00BD8157 /* TileModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F833F25E49E6B00BD8157 /* TileModifier.swift */; };
 		613F834625E49FB800BD8157 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613F834525E49FB800BD8157 /* Color+Extensions.swift */; };
+		614A261125E8DCE40042A91B /* LazyViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614A261025E8DCE40042A91B /* LazyViewNavigation.swift */; };
+		619B880A25E5B3E000866098 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B880925E5B3E000866098 /* LoadingView.swift */; };
+		619B883625E71D6F00866098 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619B883525E71D6F00866098 /* APIManager.swift */; };
+		619E6D3B25E8235A0072E725 /* CategoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619E6D3A25E8235A0072E725 /* CategoryDetailsViewModel.swift */; };
 		61D63F1F25E41EF600D5A153 /* TravelDiscoveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D63F1E25E41EF600D5A153 /* TravelDiscoveryApp.swift */; };
 		61D63F2125E41EF600D5A153 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D63F2025E41EF600D5A153 /* DiscoverView.swift */; };
 		61D63F2325E41EF900D5A153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61D63F2225E41EF900D5A153 /* Assets.xcassets */; };
@@ -25,6 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		610F148E25E5695A00AAA76C /* CategoryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsView.swift; sourceTree = "<group>"; };
+		613C1FB325E7489900BEA8DA /* ResponseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseAPI.swift; sourceTree = "<group>"; };
+		613F654125E80FFE00DCE642 /* DiscoverAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverAPI.swift; sourceTree = "<group>"; };
 		613F832125E48D4800BD8157 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		613F832425E493CA00BD8157 /* DiscoverCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverCategoriesView.swift; sourceTree = "<group>"; };
 		613F832725E493EF00BD8157 /* PopularDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularDestinationView.swift; sourceTree = "<group>"; };
@@ -36,6 +47,10 @@
 		613F833B25E496B900BD8157 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		613F833F25E49E6B00BD8157 /* TileModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileModifier.swift; sourceTree = "<group>"; };
 		613F834525E49FB800BD8157 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		614A261025E8DCE40042A91B /* LazyViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyViewNavigation.swift; sourceTree = "<group>"; };
+		619B880925E5B3E000866098 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		619B883525E71D6F00866098 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		619E6D3A25E8235A0072E725 /* CategoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewModel.swift; sourceTree = "<group>"; };
 		61D63F1B25E41EF600D5A153 /* TravelDiscovery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelDiscovery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61D63F1E25E41EF600D5A153 /* TravelDiscoveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDiscoveryApp.swift; sourceTree = "<group>"; };
 		61D63F2025E41EF600D5A153 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
@@ -49,13 +64,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613F654725E819FF00DCE642 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		613F831B25E48A3600BD8157 /* Discover */ = {
+		610F148D25E5694800AAA76C /* CategoryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				619E6D3825E823280072E725 /* View */,
+				619E6D3925E8232F0072E725 /* ViewModel */,
+			);
+			path = CategoryDetails;
+			sourceTree = "<group>";
+		};
+		613F654025E80FF200DCE642 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				613F654125E80FFE00DCE642 /* DiscoverAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		613F654925E8216000DCE642 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				619B880825E5B3D400866098 /* Loading */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		613F654A25E8217600DCE642 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				613F654B25E8218300DCE642 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		613F654B25E8218300DCE642 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				61D63F2025E41EF600D5A153 /* DiscoverView.swift */,
@@ -64,6 +113,16 @@
 				613F832725E493EF00BD8157 /* PopularDestinationView.swift */,
 				613F832A25E4940900BD8157 /* PopularRestaurantsView.swift */,
 				613F832D25E4942800BD8157 /* TrendingCreatorsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		613F831B25E48A3600BD8157 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				613F654025E80FF200DCE642 /* Service */,
+				613F654A25E8217600DCE642 /* Home */,
+				610F148D25E5694800AAA76C /* CategoryDetails */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -82,6 +141,8 @@
 		613F833E25E49E5A00BD8157 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				614A261025E8DCE40042A91B /* LazyViewNavigation.swift */,
+				613F654925E8216000DCE642 /* Components */,
 				613F834425E49FA700BD8157 /* Extensions */,
 				613F834325E49FA000BD8157 /* Modifiers */,
 			);
@@ -104,6 +165,39 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		619B880825E5B3D400866098 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				619B880925E5B3E000866098 /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		619B883425E71BEF00866098 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				619B883525E71D6F00866098 /* APIManager.swift */,
+				613C1FB325E7489900BEA8DA /* ResponseAPI.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		619E6D3825E823280072E725 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				610F148E25E5695A00AAA76C /* CategoryDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		619E6D3925E8232F0072E725 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				619E6D3A25E8235A0072E725 /* CategoryDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		61D63F1225E41EF600D5A153 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +217,7 @@
 		61D63F1D25E41EF600D5A153 /* TravelDiscovery */ = {
 			isa = PBXGroup;
 			children = (
+				619B883425E71BEF00866098 /* Service */,
 				613F833E25E49E5A00BD8157 /* Utils */,
 				613F833025E4965B00BD8157 /* Models */,
 				613F831B25E48A3600BD8157 /* Discover */,
@@ -158,6 +253,9 @@
 			dependencies = (
 			);
 			name = TravelDiscovery;
+			packageProductDependencies = (
+				613F654625E819FF00DCE642 /* Kingfisher */,
+			);
 			productName = TravelDiscovery;
 			productReference = 61D63F1B25E41EF600D5A153 /* TravelDiscovery.app */;
 			productType = "com.apple.product-type.application";
@@ -185,6 +283,9 @@
 				Base,
 			);
 			mainGroup = 61D63F1225E41EF600D5A153;
+			packageReferences = (
+				613F654525E819FF00DCE642 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 61D63F1C25E41EF600D5A153 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -211,19 +312,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619E6D3B25E8235A0072E725 /* CategoryDetailsViewModel.swift in Sources */,
+				619B883625E71D6F00866098 /* APIManager.swift in Sources */,
 				613F833925E496B200BD8157 /* Restaurant.swift in Sources */,
 				61D63F2125E41EF600D5A153 /* DiscoverView.swift in Sources */,
+				613C1FB425E7489900BEA8DA /* ResponseAPI.swift in Sources */,
 				613F832B25E4940900BD8157 /* PopularRestaurantsView.swift in Sources */,
+				610F148F25E5695A00AAA76C /* CategoryDetailsView.swift in Sources */,
 				613F832E25E4942800BD8157 /* TrendingCreatorsView.swift in Sources */,
 				613F832825E493EF00BD8157 /* PopularDestinationView.swift in Sources */,
 				613F832225E48D4800BD8157 /* SearchView.swift in Sources */,
 				613F833625E496A600BD8157 /* Destination.swift in Sources */,
+				619B880A25E5B3E000866098 /* LoadingView.swift in Sources */,
 				613F834625E49FB800BD8157 /* Color+Extensions.swift in Sources */,
 				61D63F1F25E41EF600D5A153 /* TravelDiscoveryApp.swift in Sources */,
 				613F832525E493CA00BD8157 /* DiscoverCategoriesView.swift in Sources */,
 				613F833225E4966E00BD8157 /* Category.swift in Sources */,
 				613F834025E49E6B00BD8157 /* TileModifier.swift in Sources */,
 				613F833C25E496B900BD8157 /* User.swift in Sources */,
+				614A261125E8DCE40042A91B /* LazyViewNavigation.swift in Sources */,
+				613F654225E80FFE00DCE642 /* DiscoverAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +520,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		613F654525E819FF00DCE642 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		613F654625E819FF00DCE642 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 613F654525E819FF00DCE642 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 61D63F1325E41EF600D5A153 /* Project object */;
 }
